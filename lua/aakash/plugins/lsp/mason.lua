@@ -22,6 +22,10 @@ return {
 					package_uninstalled = "✗",
 				},
 			},
+			-- Specify the path to the Python executable
+			python = {
+				executable = "/opt/homebrew/bin/python3",
+			},
 		})
 
 		mason_lspconfig.setup({
